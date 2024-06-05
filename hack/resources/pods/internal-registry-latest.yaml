@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: internal-registry-latest
+spec:
+  containers:
+  - name: internal-registry-latest
+    image: image-registry.openshift-image-registry.svc:5000/openshift/cli:latest

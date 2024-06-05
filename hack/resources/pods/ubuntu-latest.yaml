@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ubuntu-latest
+spec:
+  containers:
+  - name: ubuntu-latest
+    image: ubuntu:latest
